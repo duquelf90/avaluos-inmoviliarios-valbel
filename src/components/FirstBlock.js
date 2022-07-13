@@ -7,10 +7,10 @@ const FirstBlock = () => {
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap xl:items-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-            <h1 className="mb-6 text-3xl md:text-5xl lg:text-6xl leading-tight font-bold tracking-tight">
+            <h1 className="mb-6 text-3xl md:text-5xl lg:text-5xl leading-tight font-bold tracking-tight text-center md:text-left lg:text-left">
               ¿A punto de vender o comprar un inmueble?
             </h1>
-            <p className="mb-8 text-lg md:text-xl text-coolGray-500 font-medium">
+            <p className="mb-8 text-lg md:text-xl text-coolGray-500 font-medium text-center md:text-left lg:text-left">
               ¿Quieres estar seguro que estas realizando la operación a un
               precio justo?
             </p>

@@ -82,7 +82,7 @@ const Steps = () => {
           </div>
         </div>
       </section>
-      <div className="container px-4 mx-auto py-4">
+      <div className="container px-4 mx-auto pb-10">
         <div className="max-w-4xl mx-auto text-center">
           <a
             className="inline-block py-3 px-7 w-full md:w-auto text-lg leading-7 text-green-50 bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm"
