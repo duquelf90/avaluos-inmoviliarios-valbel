@@ -9,7 +9,7 @@ import Home from "section/home";
 import Numbers from "section/numbers";
 import Prices from "section/prices";
 import Steps from "section/steps";
-import TypeSection from "section/types";
+import TypeSection from "section/type-section";
 
 export default function Index() {
   return (
