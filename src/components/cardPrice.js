@@ -4,37 +4,45 @@ import CheckIcon from "./checkIcon";
 
 const CardPrice = (props) => {
   return (
-    <div className="w-full md:w-1/2 p-4">
+    <div className="w-full md:w-1/2 lg:w-1/3 p-4">
       <div className="flex flex-col pt-8 pb-8 bg-white rounded-md shadow-md hover:scale-105 transition duration-500">
-        <div className="flex items-center justify-between px-8">
-          <div>
-            <h3 className="text-2xl md:text-3xl text-coolGray-800 font-semibold tracking-tighter">
+        <div className="px-8 pb-8">
+          <div className="flex flex-wrap items-center justify-between-2 mb-6">
+            <h3 className="text-1xl md:text-2xl lg:text-2xl   text-coolGray-800 font-medium text-center mr-3">
               {props.title}
             </h3>
-            <p className="text-coolGray-400 font-medium">desde</p>
+
+            {props.popular ? (
+              <span className="lg:ml-3 md:ml-3 inline-block py-px px-2 text-xs leading-5 text-white bg-yellow-500 font-medium uppercase rounded-9xl text-left">
+                {props.popular}{" "}
+              </span>
+            ) : (
+              <></>
+            )}
           </div>
-          <div>
-            <span className="relative right-1 text-3xl text-coolGray-900 font-bold sm:-top-5 lg:-top-10 md:-top-5">
-              $
+
+          <div className="mb-6 text-left">
+            <span className="inline-block ml-1 text-coolGray-500 font-semibold">
+              desde
             </span>
-            <span className="text-coolGray-900 font-semibold tracking-tighter text-6xl md:text-4xl lg:text-6xl">
+
+            <span className="relative -top-10 right-1 text-3xl text-coolGray-900 font-bold">
+              {props.percent ? <span className="mr-1">{""}</span> : "$"}
+            </span>
+
+            <span className="text-6xl md:text-7xl text-coolGray-900 font-semibold text-right">
               {props.price}
             </span>
           </div>
+          <p className="mb-2 text-red-500 font-medium text-2xl">
+            {props.location}
+          </p>
         </div>
         <div className="border-b border-coolGray-100"></div>
-        <ul className="self-start px-8 pt-8 pb-16">
-          <li className="flex items-center mb-4 text-coolGray-500 font-medium">
+        <ul className="self-start px-8 pt-8 pb-8 ">
+          <li className="flex items-center mb-2 text-coolGray-500 font-small text-center">
             <CheckIcon />
-            <span>Access to all features</span>
-          </li>
-          <li className="flex items-center mb-4 text-coolGray-500 font-medium">
-            <CheckIcon />
-            <span>Assisted onboarding support</span>
-          </li>
-          <li className="flex items-center mb-4 text-coolGray-500 font-medium">
-            <CheckIcon />
-            <span>CPM Overage: Unlimited</span>
+            <span>No aplica viaticos y estancias</span>
           </li>
         </ul>
         <div className="border-b border-coolGray-100"></div>

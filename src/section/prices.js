@@ -1,6 +1,12 @@
 import CardPrice from "components/cardPrice";
 import React from "react";
 
+const cmdx = [
+  "No aplica para avalúos especializados (Judiciales, Fiscales,Catastrales).",
+];
+
+const edo = [];
+
 const Prices = () => {
   return (
     <section className="py-20 xl:py-24 bg-coolGray-900 overflow-hidden">
@@ -13,11 +19,11 @@ const Prices = () => {
             Nuestros precios son flexibles
           </h3>
 
-          <div className="flex mb-12 mx-auto max-w-max border border-coolGray-800 overflow-hidden rounded-md shadow-lg"></div>
         </div>
-        <div className="flex flex-wrap justify-center -mx-4">
-          <CardPrice title="Ciudad de Mexico" price="2500" />
-          <CardPrice title="Resto de México" price="3500" />
+        <div className="flex flex-wrap mb-12 justify-center -mx-4">
+          <CardPrice title="Avaluos comerciales" location="Ciudad de México" price="2500" popular='Muy Popular' />
+          <CardPrice title="Avaluos comerciales" location="Resto de la República Mexicana" price="3500" />
+          <CardPrice title="Peritajes" price="2.5%" location="Toda la República Mexicana" percent={true}/>
         </div>
       </div>
     </section>
