@@ -8,7 +8,7 @@ const CardPrice = (props) => {
       <div className="flex flex-col pt-8 pb-8 bg-white rounded-md shadow-md hover:scale-105 transition duration-500">
         <div className="px-8 pb-8">
           <div className="flex flex-wrap items-center justify-between-2 mb-6">
-            <h3 className="text-1xl md:text-2xl lg:text-2xl   text-coolGray-800 font-medium text-center mr-3">
+            <h3 className="text-1xl md:text-2xl lg:text-2xl   text-coolGray-800 font-medium text-center mr-3 uppercase">
               {props.title}
             </h3>
 
