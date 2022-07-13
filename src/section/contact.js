@@ -205,7 +205,7 @@ const Contact = () => {
                     <input
                       className="block w-full py-2 px-3 appearance-none border border-coolGray-200 rounded-lg shadow-md text-coolGray-500 leading-6 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                       type="email"
-                      placeholder="dev@shuffle.dev"
+                      placeholder="Tu email"
                     />
                   </div>
                   <div className="mb-6">

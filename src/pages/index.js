@@ -9,7 +9,7 @@ import Home from "section/home";
 import Numbers from "section/numbers";
 import Prices from "section/prices";
 import Steps from "section/steps";
-import Types from "section/types";
+import TypeSection from "section/types";
 
 export default function Index() {
   return (
@@ -19,7 +19,7 @@ export default function Index() {
       <Numbers />
       <Features />
       <CTA />
-      <Types />
+      <TypeSection/>
       <Steps/>
       <Prices/>
       <Faq/>

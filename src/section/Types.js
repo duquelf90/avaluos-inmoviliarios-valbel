@@ -2,7 +2,7 @@ import CardTypes from "components/cardTypes";
 import Image from "next/image";
 import React from "react";
 
-const Types = () => {
+const TypeSection = () => {
   return (
     <section className="py-24 bg-white">
       <div className="container px-4 mx-auto">
@@ -53,4 +53,4 @@ const Types = () => {
   );
 };
 
-export default Types;
+export default TypeSection;
