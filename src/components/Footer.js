@@ -16,7 +16,7 @@ const Footer = () => {
                 width={50}
               />
             </a>
-            <p className="text-base md:text-lg text-coolGray-500 font-medium lg:w-68">
+            <p className="text-base md:text-lg text-coolGray-500 font-medium w-45">
               Somos un grupo de profesionales y péritos evaluadores
               especializados en la realización de Avalúos Inmobiliarios.
             </p>

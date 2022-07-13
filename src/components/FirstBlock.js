@@ -8,19 +8,18 @@ const FirstBlock = () => {
         <div className="flex flex-wrap xl:items-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
             <h1 className="mb-6 text-3xl md:text-5xl lg:text-5xl leading-tight font-bold tracking-tight text-center md:text-left lg:text-left">
-              ¿A punto de vender o comprar un inmueble?
+              ¿Estas a punto de vender o comprar un inmueble?
             </h1>
             <p className="mb-8 text-lg md:text-xl text-coolGray-500 font-medium text-center md:text-left lg:text-left">
-              ¿Quieres estar seguro que estas realizando la operación a un
-              precio justo?
+              ¿Quieres estar seguro que el precio es el justo?
             </p>
             <div className="flex flex-wrap">
               <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                 <a
-                  className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-green-500 rounded-md shadow-sm bg-gray-800 hover:bg-red-600"
+                  className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-green-500 rounded-md shadow-sm bg-gray-800 hover:bg-red-600 uppercase"
                   href="#"
                 >
-                  COTIZALO AHORA!
+                  nosotros te ayudamos!
                 </a>
               </div>
               <div className="w-full md:w-auto py-1 md:py-0"></div>
