@@ -9,7 +9,7 @@ const edo = [];
 
 const Prices = () => {
   return (
-    <section className="py-20 xl:py-24 bg-coolGray-900 overflow-hidden">
+    <section className="py-20 xl:py-24 bg-coolGray-900 overflow-hidden" id="precios">
       <div className="container px-4 mx-auto">
         <div className="text-center">
           <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl">

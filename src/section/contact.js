@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white" id="contacto">
       <div className="wave-top w-full text-coolGray-900">
         <svg
           viewBox="0 0 1440 116"

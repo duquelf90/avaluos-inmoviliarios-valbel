@@ -27,14 +27,17 @@ const CardPrice = (props) => {
             </span>
 
             <span className="relative -top-10 right-1 text-3xl text-coolGray-900 font-bold">
-              {props.percent ? <span className="mr-1">{""}</span> : "$"}
+              {props.percent ? <span className="mr-1"></span> : "$"}
             </span>
 
             <span className="text-6xl md:text-7xl text-coolGray-900 font-semibold text-right">
               {props.price}
             </span>
+            <span className="text-coolGray-900 font-semibold text-2xl">
+              {props.percent ? <span className="mr-1">por millar</span> : null}
+            </span>
           </div>
-          <p className="mb-2 text-red-500 font-medium text-2xl">
+          <p className="mb-2 text-red-500 font-bold text-xl">
             {props.location}
           </p>
         </div>
