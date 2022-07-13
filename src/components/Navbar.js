@@ -90,7 +90,7 @@ const Navbar = () => {
         </div>
         <div className="w-1/2 xl:w-1/3">
           <div className="hidden xl:flex items-center justify-end">
-            <Button className="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md">
+            <Button color="green" className="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md">
               Whatsapp
             </Button>
           </div>
