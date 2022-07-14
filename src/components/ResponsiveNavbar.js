@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Button } from "@material-tailwind/react";
+import Image from "next/image";
 
 export const ResponsiveNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
