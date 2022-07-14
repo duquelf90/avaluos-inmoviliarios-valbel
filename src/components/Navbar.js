@@ -5,7 +5,7 @@ import { Button } from "@material-tailwind/react";
 
 const pages = [
   { title: "Home", slug: "home" },
-  { title: "Avaluos", slug: "avaluos" },
+  { title: "Avalúos", slug: "avaluos" },
   { title: "Precios", slug: "precios" },
   { title: "Preguntas Frecuentes", slug: "faq" },
   { title: "Contacto", slug: "contacto" }
@@ -36,10 +36,10 @@ const Navbar = ({ menuOpen, setMenuOpen }) => (
       <div className="w-1/2 xl:w-1/3">
         <a className="block max-w-max" href="#">
           <Image
-            className="h-8"
-            src="/img/flex-ui-green-light.svg"
-            width={60}
-            height={60}
+            src="/img/logo-avaluo.svg"            
+            width={170}
+            height={100}
+            quality={100}
             alt=""
           />
         </a>

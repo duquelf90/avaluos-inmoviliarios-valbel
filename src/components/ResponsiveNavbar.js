@@ -17,9 +17,10 @@ const Navbar = ({ menuOpen, setMenuOpen }) => (
             <Image
               className="h-8"
               src="/img/flex-ui-green-light.svg"
-              width={60}
-              height={60}
-              alt=""
+              objectFit="fill"
+              // width={60}
+              // height={60}
+              // alt=""
             />
           </a>
         </div>
