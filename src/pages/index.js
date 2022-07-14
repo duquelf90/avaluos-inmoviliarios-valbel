@@ -1,4 +1,4 @@
-import Footer from "components/Footer";
+import ChatBlock from "components/chatBlock";
 import Layout from "components/Layout";
 import SEO from "components/seo";
 import Contact from "section/contact";
@@ -14,6 +14,8 @@ import TypeSection from "section/type-section";
 export default function Index() {
   return (
     <Layout>
+            <ChatBlock/>
+
       <SEO />
       <Home />
       <Numbers />
