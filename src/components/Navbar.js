@@ -22,6 +22,7 @@ const navLinks = pages.map(
         smooth={true}
         offset={-70}
         duration={500}
+        key={index}
       >
         {pages.title}
       </ScrollLink>

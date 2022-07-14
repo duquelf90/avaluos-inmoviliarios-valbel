@@ -33,9 +33,9 @@ const Faq = () => {
               <Accordion
                 open={open === 1}
                 onClick={() => handleOpen(1)}
-                className="w-full md:w-auto md:pr-10 mb-2 md:mb-0"
+                className="w-full md:w-auto md:pr-10 mb-2 md:mb-0 ml-0"
               >
-                <AccordionHeader className="mb-4 text-xl text-coolGray-900 font-bold">
+                <AccordionHeader className="mb-4 text-xl text-coolGray-900 font-bold ">
                   ¿Qué es un avalúo?
                 </AccordionHeader>
                 <AccordionBody className="max-w-lg text-coolGray-500 font-medium text-justify">
@@ -55,10 +55,10 @@ const Faq = () => {
                 className="w-full md:w-auto md:pr-10 mb-2 md:mb-0"
               >
                 <AccordionHeader className="mb-4 text-xl text-coolGray-900 font-bold">
-                  ¿Para qué necesito un avalúo?{" "}
+                  ¿Para qué necesito un avalúo?
                 </AccordionHeader>
-                <AccordionBody className="max-w-lg text-coolGray-500 font-medium text-justify">
-                  <ul>
+                <AccordionBody className="max-w-lg text-coolGray-500 font-medium text-justify list-decimal">
+                  <ul className="list-decimal">
                     <li>Para conocer el valor comercial de una propiedad.</li>
                     <li>Para la toma de decisiones.</li>
                     <li>
@@ -108,7 +108,7 @@ const Faq = () => {
                 <AccordionHeader className="mb-4 text-xl text-coolGray-900 font-bold">
                   ¿Qué se toma en cuenta para realizar un avalúo?
                 </AccordionHeader>
-                <AccordionBody className="max-w-lg text-coolGray-500 font-medium text-justify">
+                <AccordionBody className="max-w-lg text-coolGray-500 font-medium text-justify text-1xl">
                   El perito valuador examina a fondo las características del
                   inmueble en cuestión desde el enfoque físico y técnico,
                   tomando en cuenta principalmente: La edad del inmueble Los

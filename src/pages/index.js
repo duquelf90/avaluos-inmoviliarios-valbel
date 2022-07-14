@@ -14,18 +14,17 @@ import TypeSection from "section/type-section";
 export default function Index() {
   return (
     <Layout>
-            <ChatBlock/>
-
+      <ChatBlock />
       <SEO />
       <Home />
       <Numbers />
       <Features />
       <CTA />
-      <TypeSection/>
-      <Steps/>
-      <Prices/>
-      <Faq/>
-      <Contact/>
+      <TypeSection />
+      <Steps />
+      <Prices />
+      <Faq />
+      <Contact />
     </Layout>
   );
 }
