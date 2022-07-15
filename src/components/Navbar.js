@@ -2,15 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { Button } from "@material-tailwind/react";
+import { navbarData } from "./navbarData";
 
-const pages = [
-  { title: "Home", slug: "home" },
-  { title: "Avalúos", slug: "avaluos" },
-  { title: "Precios", slug: "precios" },
-  { title: "Preguntas Frecuentes", slug: "faq" },
-  { title: "Contacto", slug: "contacto" }
-];
-const navLinks = pages.map(
+const navLinks = navbarData.map(
   (pages, index) => (
     console.log(index),
     (
