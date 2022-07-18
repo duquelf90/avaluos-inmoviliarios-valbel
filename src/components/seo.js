@@ -13,6 +13,10 @@ export default function SEO({
       content: 'Avaluos inmobiliarios',
     },
     {
+      name: `keywords`,
+      content: 'Avaluos inmobiliarios, precio inmuebles, avaluo comercial, casa',
+    },
+    {
       name: `og:title`,
       content: title,
     },
