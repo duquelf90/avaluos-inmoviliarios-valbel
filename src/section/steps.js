@@ -7,27 +7,15 @@ const Steps = () => {
       <section className="py-24 bg-white overflow-hidden">
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-              <div className="relative mx-auto md:ml-0 max-w-max">
-                <div className="absolute z-10 -right-5 -top-8 w-28 md:w-auto">
-                  <Image
-                    src="/elements/circle3-yellow.svg"
-                    alt=""
-                    width={150}
-                    height={150}
-                  />
-                </div>
-                <div className="absolute z-10 -left-5 -bottom-8 w-28 md:w-auto">
-                  <Image
-                    src="/elements/dots3-blue.svg"
-                    alt=""
-                    width={150}
-                    height={150}
-                  />
-                </div>
-                <div className="h-48 object-cover md:h-full md:w-80 sm:w-48 lg:w-96">
-                  <Image src="/img/eeee.svg" alt="" width={500} height={500} />
-                </div>
+            <div className="flex items-center mx-auto ">
+              <div className="py-12">
+                <Image
+                  src="/img/eeee.svg"
+                  alt=""
+                  width={400}
+                  height={400}
+                  className=""
+                />
               </div>
             </div>
             <div className="w-full md:w-1/2 px-4">
