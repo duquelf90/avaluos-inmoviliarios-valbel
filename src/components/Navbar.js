@@ -3,25 +3,22 @@ import Image from "next/image";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { Button } from "@material-tailwind/react";
 import { navbarData } from "./navbarData";
+import WhatsApp from "./whatsapp";
 
-const navLinks = navbarData.map(
-  (pages, index) => (
-    (
-      <ScrollLink
-        // activeClass="active"
-        className="text-coolGray-500 hover:text-coolGray-900 font-medium"
-        to={pages.slug}
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        key={index}
-      >
-        {pages.title}
-      </ScrollLink>
-    )
-  )
-);
+const navLinks = navbarData.map((pages, index) => (
+  <ScrollLink
+    // activeClass="active"
+    className="text-coolGray-500 hover:text-coolGray-900 font-medium"
+    to={pages.slug}
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+    key={index}
+  >
+    {pages.title}
+  </ScrollLink>
+));
 
 const Navbar = ({ menuOpen, setMenuOpen }) => (
   <div className="flex justify-between p-6 px-4">
@@ -30,7 +27,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => (
       <div className="w-1/2 xl:w-1/3">
         <a className="block max-w-max" href="#">
           <Image
-            src="/img/logo-avaluo.svg"            
+            src="/img/logo-avaluo.svg"
             width={170}
             height={100}
             quality={100}
@@ -52,7 +49,9 @@ const Navbar = ({ menuOpen, setMenuOpen }) => (
             color="green"
             className="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md"
           >
-            Whatsapp
+            <a href="https://api.whatsapp.com/send?phone=+525524857429&text=Hola%20quisiera%20m%C3%A1s%20informaci%C3%B3n">
+              Agenda tu llamada
+            </a>
           </Button>
         </div>
       </div>
