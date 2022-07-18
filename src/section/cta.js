@@ -46,7 +46,7 @@ const CTA = () => {
             </p>
             <a
               className="inline-block py-3 px-7 w-full md:w-auto text-lg leading-7 text-green-50 bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm"
-              href="#"
+              href="https://api.whatsapp.com/send?phone=+525524857429&text=Hola%20quisiera%20m%C3%A1s%20cotizar%20un%20avalúo%20urgente"
             >
               Contactanos
             </a>
