@@ -5,10 +5,8 @@ import analytics from "utility/analytics";
 
 const ChatBlock = () => {
   const doWhatsapp = () => {
-    analytics.track('buttonClicked', {
-      foo: 'whatsapp'
-    }, () => {
-      console.log('track callback')
+    analytics.track('buttonClicked', {}, () => {
+      console.log('whatsapp callback')
     })
   }
   
