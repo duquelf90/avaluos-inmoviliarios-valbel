@@ -39,7 +39,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => (
           />
         </a>
       </div>
-      <div className="w-5/6">
+      <div className="w-1/2 xl:w-1/3">
         <nav className="hidden md:block space-x-6 ">{navLinks}</nav>
       </div>
 
