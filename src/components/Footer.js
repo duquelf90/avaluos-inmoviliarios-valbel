@@ -42,7 +42,7 @@ const Footer = () => {
                   )
                 )
               )}
-              <div className="w-full md:w-auto p-3 md:py-0 md:px-6 capitalize"><a className=""></a>remates hipotecarios</div>
+              <div className="w-full md:w-auto p-3 md:py-0 md:px-6 capitalize"><a className="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium">Remates Hipotecarios</a></div>
             </div>
           </div>
         </div>
