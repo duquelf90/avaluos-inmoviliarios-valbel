@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { navbarData } from "./navbarData";
@@ -43,9 +44,11 @@ const Footer = () => {
                 )
               )}
               <div className="w-full md:w-auto p-3 md:py-0 md:px-6 capitalize">
-                <a className="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium">
-                  Remates Hipotecarios
-                </a>
+                <Link activeClass="active" href="https://www.grupovalbel.com/propiedades">
+                  <a className="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium">
+                    Remates Hipotecarios
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
