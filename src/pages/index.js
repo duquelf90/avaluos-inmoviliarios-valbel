@@ -14,8 +14,8 @@ import TypeSection from "section/type-section";
 export default function Index() {
   return (
     <Layout>
-      <ChatBlock />
       <SEO />
+      <ChatBlock />
       <Home />
       <Numbers />
       <Features />
