@@ -29,7 +29,7 @@ const TypeSection = () => {
           <div className="w-full lg:w-1/3 lg:mb-0 bg-white rounded-lg p-8 hover:shadow-xl">
             <Image
               className="max-w-sm m-auto"
-              src="/img/Recurso-3.svg"
+              src="/img/lupa.svg"
               width={500}
               height={500}
               alt="inmuebles"
