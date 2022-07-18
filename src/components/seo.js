@@ -10,36 +10,24 @@ export default function SEO({
   const metaData = [
     {
       name: `description`,
-      content: description,
+      content: 'Avaluos inmobiliarios',
     },
     {
-      property: `og:title`,
+      name: `og:title`,
       content: title,
     },
     {
-      property: `og:description`,
-      content: description,
+      name: `og:description`,
+      content: 'Te ayudamos con tu avalúo inmobiliarios',
     },
     {
-      property: `og:type`,
+      name: `og:type`,
       content: `website`,
     },
     {
-      name: `twitter:card`,
-      content: `summary`,
-    },
-    {
-      name: `twitter:creator`,
-      content: author,
-    },
-    {
-      name: `twitter:title`,
-      content: title,
-    },
-    {
-      name: `twitter:description`,
-      content: description,
-    },
+      name: `og:url`,
+      content: 'https://avaluos.grupovalbel.com',
+    }  
   ].concat(meta);
   return (
     <Head>
