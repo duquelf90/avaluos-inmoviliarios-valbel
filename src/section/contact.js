@@ -37,11 +37,11 @@ const Contact = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-12 md:mb-0">
               <div className="max-w-xs mx-auto text-center">
-                <div className="inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full">
+                <div className="inline-flex mb-6 items-center justify-center w-20 h-20 bg-green-500 rounded-full">
                   <svg
-                    className="h-8 text-white"
-                    width="32"
-                    height="32"
+                    className="text-white"
+                    width="42"
+                    height="42"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -67,11 +67,11 @@ const Contact = () => {
             {/* Whatsapp */}
             <div className="w-full md:w-1/3 px-4 mb-12 md:mb-0">
               <div className="max-w-xs mx-auto text-center">
-                <div className="inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full">
+                <div className="inline-flex mb-6 items-center justify-center w-20 h-20 bg-green-500 rounded-full">
                   <svg
-                    className="h-8 text-white"
-                    width="32"
-                    height="32"
+                    className="text-white"
+                    width="42"
+                    height="42"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -102,11 +102,11 @@ const Contact = () => {
             {/* Oficina */}
             <div className="w-full md:w-1/3 px-4">
               <div className="max-w-xs mx-auto text-center">
-                <div className="inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full">
+                <div className="inline-flex mb-6 items-center justify-center w-20 h-20 bg-green-500 rounded-full">
                   <svg
                     className="h-8 text-white"
-                    width="24"
-                    height="24"
+                    width="42"
+                    height="42"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -132,38 +132,6 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            {/* Ubicacion */}
-            {/* <div className="w-full md:w-1/4 px-4">
-              <div className="max-w-xs mx-auto text-center">
-                <div className="inline-flex mb-6 items-center justify-center w-18 h-18 bg-green-500 rounded-full">
-                  <svg
-                    className="h-8 text-white"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M18.0001 4.48C16.4088 2.8887 14.2505 1.99472 12.0001 1.99472C9.74961 1.99472 7.59135 2.8887 6.00005 4.48C4.40875 6.0713 3.51477 8.22957 3.51477 10.48C3.51477 12.7304 4.40875 14.8887 6.00005 16.48L11.2701 21.76C11.363 21.8537 11.4736 21.9281 11.5955 21.9789C11.7173 22.0297 11.848 22.0558 11.9801 22.0558C12.1121 22.0558 12.2428 22.0297 12.3646 21.9789C12.4865 21.9281 12.5971 21.8537 12.6901 21.76L18.0001 16.43C19.5847 14.8453 20.4749 12.6961 20.4749 10.455C20.4749 8.21395 19.5847 6.06468 18.0001 4.48ZM16.5701 15L12.0001 19.59L7.43005 15C6.5272 14.0963 5.91253 12.9452 5.66375 11.6923C5.41497 10.4393 5.54324 9.14075 6.03236 7.96068C6.52147 6.78062 7.34947 5.77205 8.41168 5.06248C9.4739 4.35291 10.7226 3.97418 12.0001 3.97418C13.2775 3.97418 14.5262 4.35291 15.5884 5.06248C16.6506 5.77205 17.4786 6.78062 17.9677 7.96068C18.4569 9.14075 18.5851 10.4393 18.3364 11.6923C18.0876 12.9452 17.4729 14.0963 16.5701 15ZM9.00005 7.41C8.19277 8.21977 7.73945 9.31657 7.73945 10.46C7.73945 11.6034 8.19277 12.7002 9.00005 13.51C9.59981 14.1108 10.3636 14.5211 11.1957 14.6894C12.0278 14.8577 12.891 14.7766 13.6771 14.4562C14.4632 14.1357 15.1372 13.5903 15.6145 12.8883C16.0918 12.1862 16.3512 11.3589 16.3601 10.51C16.3646 9.94321 16.2554 9.38126 16.039 8.85739C15.8225 8.33352 15.5033 7.85836 15.1001 7.46C14.7037 7.05458 14.2311 6.73154 13.7095 6.50947C13.1878 6.2874 12.6274 6.17068 12.0605 6.16603C11.4935 6.16138 10.9313 6.2689 10.406 6.48239C9.8808 6.69588 9.40297 7.01113 9.00005 7.41ZM13.6901 12.09C13.3111 12.4747 12.8103 12.7159 12.2732 12.7723C11.7361 12.8286 11.1961 12.6966 10.7456 12.3989C10.295 12.1012 9.96185 11.6562 9.80306 11.1401C9.64427 10.6239 9.6697 10.0686 9.87501 9.56916C10.0803 9.06967 10.4528 8.65702 10.9286 8.40174C11.4045 8.14646 11.9543 8.06441 12.484 8.16962C13.0137 8.27483 13.4904 8.56076 13.8326 8.97853C14.1748 9.39631 14.3612 9.91997 14.3601 10.46C14.3455 11.0773 14.0865 11.6635 13.6401 12.09H13.6901Z"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 className="mb-2 text-2xl md:text-3xl font-bold leading-9 text-white">
-                  Oficina
-                </h3>
-                <p className="mb-0 text-lg md:text-xl font-medium text-coolGray-500 leading-7">
-                  Horario de atención
-                </p>
-                <p className="mb-4 text-lg md:text-xl font-medium text-coolGray-500 leading-7">
-                  Lunes - Viernes 9:00 am - 6:00 pm
-                </p>
-                <p className="text-xl font-medium text-green-500 leading-7">
-                  Cerro de Macuiltepec 346, Coyoacán, CDMX, 04200{" "}
-                </p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
