@@ -33,8 +33,9 @@ const Contact = () => {
               <div className="flex flex-wrap justify-center items-center md:justify-start -mb-2"></div>
             </div>
           </div>
-          {/* email */}
+          
           <div className="flex flex-wrap -mx-4">
+            {/* email */}
             <div className="w-full md:w-1/3 px-4 mb-12 md:mb-0">
               <div className="max-w-xs mx-auto text-center">
                 <div className="inline-flex mb-6 items-center justify-center w-20 h-20 bg-green-500 rounded-full">
