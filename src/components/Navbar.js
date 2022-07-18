@@ -6,7 +6,6 @@ import { navbarData } from "./navbarData";
 
 const navLinks = navbarData.map(
   (pages, index) => (
-    console.log(index),
     (
       <ScrollLink
         // activeClass="active"
