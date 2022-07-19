@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 
-const Layout = ({ children }) => {
+const Layout = ({ props, children }) => {
   return (
     <div className="antialiased bg-body text-body font-body">
       <div className="container mx-auto">{children}</div>

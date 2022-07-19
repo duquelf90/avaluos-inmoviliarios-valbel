@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "@material-tailwind/react";
+import ChatBlock from "./chatBlock";
 
-const FirstBlock = () => {
+const FirstBlock = () => { 
+
   return (
     <div className="py-20 md:py-28">
       <div className="container px-4 mx-auto">
@@ -16,9 +17,9 @@ const FirstBlock = () => {
             </p>
             <div className="flex flex-wrap">
               <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
-                <Button className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-green-500 rounded-md shadow-sm bg-gray-800 hover:bg-red-600 uppercase">
+                <ChatBlock style="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-green-500 rounded-md shadow-sm bg-gray-800 hover:bg-red-600 uppercase">
                   nosotros te ayudamos!
-                </Button>
+                </ChatBlock>
               </div>
               <div className="w-full md:w-auto py-1 md:py-0"></div>
             </div>

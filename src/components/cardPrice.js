@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import ChatBlock from "./chatBlock";
 import CheckIcon from "./checkIcon";
 
 const CardPrice = (props) => {
@@ -50,12 +51,9 @@ const CardPrice = (props) => {
         </ul>
         <div className="border-b border-coolGray-100"></div>
         <div className="px-8 pt-8">
-          <a
-            className="inline-block py-4 px-7 w-full text-base md:text-lg leading-6 text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm"
-            href="#"
-          >
+          <ChatBlock style="inline-block py-4 px-7 w-full text-base md:text-lg leading-6 text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm">
             Cotizar
-          </a>
+          </ChatBlock>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import ChatBlock from "components/chatBlock";
 import Layout from "components/Layout";
 import SEO from "components/seo";
+import Image from "next/image";
 import Contact from "section/contact";
 import CTA from "section/cta";
 import Faq from "section/faq";
@@ -15,7 +16,9 @@ export default function Index() {
   return (
     <Layout>
       <SEO />
-      <ChatBlock />
+      <ChatBlock style="fixed z-[9999] right-2 bottom-2">
+        <Image src="/img/whatsapp.png" width={50} height={50} alt="whatsapp" />
+      </ChatBlock>
       <Home />
       <Numbers />
       <Features />
