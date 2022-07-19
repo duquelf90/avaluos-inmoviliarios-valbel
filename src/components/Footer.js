@@ -28,7 +28,7 @@ const Footer = () => {
             <a className="block mb-5 md:mb-0 max-w-max" href="#">
               <Image
                 className="h-8"
-                src="/img/logo-avaluo.svg"
+                src="/img/logo.svg"
                 alt=""
                 width={170}
                 height={100}

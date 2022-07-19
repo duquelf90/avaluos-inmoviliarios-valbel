@@ -1,20 +1,21 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 export default function SEO({
-  description = 'Avalúos Inmobiliarios - Grupo Valbel',
-  author = 'Grupo Valbel',
+  description = "Avalúos Inmobiliarios - Grupo Valbel",
+  author = "Grupo Valbel",
   meta,
-  title = 'Avalúos Inmobiliarios - Grupo Valbel',
+  title = "Avalúos Inmobiliarios - Grupo Valbel",
 }) {
   const metaData = [
     {
       name: `description`,
-      content: 'Avaluos inmobiliarios',
+      content: description,
     },
     {
       name: `keywords`,
-      content: 'Avaluos inmobiliarios, precio inmuebles, avaluo comercial, casa',
+      content:
+        "Avaluos inmobiliarios, precio inmuebles, avaluo comercial, casa",
     },
     {
       name: `og:title`,
@@ -22,7 +23,7 @@ export default function SEO({
     },
     {
       name: `og:description`,
-      content: 'Te ayudamos con tu avalúo inmobiliarios',
+      content: "Te ayudamos con tu avalúo inmobiliarios",
     },
     {
       name: `og:type`,
@@ -30,12 +31,13 @@ export default function SEO({
     },
     {
       name: `og:url`,
-      content: 'https://avaluos.grupovalbel.com',
-    }  
+      content: "https://avaluos.grupovalbel.com",
+    },
   ].concat(meta);
   return (
     <Head>
       <title>{title}</title>
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       {metaData.map(({ name, content }, i) => (
         <meta key={i} name={name} content={content} />
       ))}
