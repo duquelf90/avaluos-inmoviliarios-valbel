@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import { navbarData } from "./navbarData";
+import { navbarData } from "./Navbar";
 
 const navLinks = navbarData.map((pages, index) => (
   <div className="w-full md:w-auto p-3 md:py-0 md:px-6" key={index}>

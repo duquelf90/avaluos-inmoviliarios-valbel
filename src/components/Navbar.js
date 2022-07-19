@@ -1,10 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-import { navbarData } from "./navbarData";
 import ChatBlock from "./chatBlock";
 import { useState } from "react";
 import Link from "next/link";
+
+export const navbarData = [
+  { title: "Inicio", slug: "home" },
+  { title: "Avalúos", slug: "avaluos" },
+  { title: "Precios", slug: "precios" },
+  { title: "Contáctanos", slug: "contacto" },
+  { title: "Preguntas Frecuentes", slug: "faq" }
+];
 
 export const navLinks = navbarData.map((pages, index) => (
   <ScrollLink
@@ -30,7 +37,7 @@ const MobileNav = ({ open, setOpen }) => {
       <div className="flex items-center justify-center filter bg-white h-20">
         {" "}
         {/*logo container*/}
-        <a className="text-xl font-semibold">
+        <a className="text-xl font-semibold" href="https://grupovalbel.com">
           <Image
               src="/img/logo.svg"
               width={150}
@@ -47,7 +54,7 @@ const MobileNav = ({ open, setOpen }) => {
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="container top-0 z-50 fixed p-6 px-4 w-full bg-white">
+    <nav className="container top-0 z-50 fixed p-3 px-4 w-full bg-white">
       <nav className=" flex justify-between items-center w-full">
         <div className="w-1/2 xl:w-1/3">
           <a className="block max-w-max" href="#">
@@ -71,7 +78,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className="flex w-8 h-8 flex-col justify-between items-center md:hidden"
+          className="flex w-8 h-4 flex-col justify-between items-center md:hidden"
           onClick={() => {
             setOpen(!open);
           }}
