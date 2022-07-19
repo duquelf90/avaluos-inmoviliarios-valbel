@@ -30,13 +30,14 @@ const MobileNav = ({ open, setOpen }) => {
       <div className="flex items-center justify-center filter bg-white h-20">
         {" "}
         {/*logo container*/}
-        <a className="text-xl font-semibold"><Image
-              src="/img/logo-valbel.png"
+        <a className="text-xl font-semibold">
+          <Image
+              src="/img/logo.svg"
               width={150}
               height={50}
               alt="logo"
-              quality={100}
-            /></a>
+            />
+            </a>
       </div>
       <div className="flex flex-col ml-4">{navLinks}</div>
     </div>
@@ -51,7 +52,7 @@ const Navbar = () => {
         <div className="w-1/2 xl:w-1/3">
           <a className="block max-w-max" href="#">
             <Image
-              src="/img/logo-valbel.png"
+              src="/img/logo.svg"
               width={180}
               height={60}
               alt="logo"
