@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import ChatBlock from "./chatBlock";
 import { useState } from "react";
