@@ -5,8 +5,8 @@ import ChatBlock from "./chatBlock";
 const FirstBlock = () => { 
 
   return (
-    <div className="py-20 md:py-28">
-      <div className="container px-4 mx-auto">
+    <div className="py-28 xl:py-48 md:py-48">
+      <div className="container px-10 mx-auto">
         <div className="flex flex-wrap xl:items-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
             <h1 className="mb-6 text-3xl md:text-5xl lg:text-5xl leading-tight font-bold tracking-tight text-center md:text-left lg:text-left">

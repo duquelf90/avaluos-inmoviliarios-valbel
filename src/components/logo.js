@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const LogoImg = (props) => {
   return (
-      <Link href="/">
+      // <Link href="/">
         <Image
           src="/img/logo.png"
           width={props.w}
@@ -11,7 +11,7 @@ const LogoImg = (props) => {
           alt="logo"
           quality={100}
         />
-      </Link>
+      // </Link>
   );
 };
 
