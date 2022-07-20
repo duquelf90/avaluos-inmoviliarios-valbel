@@ -1,23 +1,18 @@
-import { Link } from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function Logo() {
+const LogoImg = (props) => {
   return (
-    <Link
-      path="/"
-      sx={{
-        variant: "links.logo",
-      }}
-    >
-      <a className="block max-w-max" href="#">
+      <Link href="/">
         <Image
-          src="/img/logo-valbel.png"
-          width={180}
-          height={60}
+          src="/img/logo.png"
+          width={props.w}
+          height={props.h}
           alt="logo"
           quality={100}
         />
-      </a>
-    </Link>
+      </Link>
   );
-}
+};
+
+export default LogoImg;

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import LogoImg from "./logo";
 import { navbarData } from "./Navbar";
 
 const navLinks = navbarData.map((pages, index) => (
@@ -24,17 +25,8 @@ const Footer = () => {
     <section className="bg-white overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap lg:items-center pt-24 pb-0 -mx-4">
-          <div className="w-full md:w-1/4 lg:w-auto px-4">
-            <a className="block mb-5 md:mb-0 max-w-max" href="#">
-              <Image
-                className="h-8"
-                src="/img/logo.svg"
-                alt=""
-                width={170}
-                height={100}
-                quality={100}
-              />
-            </a>
+          <div className="w-full md:w-2/4 lg:w-auto px-4 md:mb-0 mb-5">
+            <LogoImg w="175" h="45" />
           </div>
           <div className="w-full md:w-3/4 lg:flex-1 px-4">
             <div className="flex flex-wrap justify-end -mx-3 lg:-mx-6">
