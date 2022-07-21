@@ -11,7 +11,7 @@ const TypeSection = () => {
           </h1>
         </div>
         <div className="flex flex-wrap -mx-4">
-          <div className="w-full lg:w-1/2 px-4 lg:pt-6 mb-8 lg:mb-0">
+          <div className="w-full md:w-1/2 px-4 lg:pt-6 mb-8 lg:mb-0">
             <CardTypes
               title="Casas"
               sub="Avalúos para conocer el valor de un hogar y departamentos
@@ -25,7 +25,7 @@ const TypeSection = () => {
               img="hopital.svg"
             />
           </div>
-          <div className="w-full lg:w-1/2 lg:pt-6 px-4">
+          <div className="w-full md:w-1/2  lg:pt-6 px-4">
             <CardTypes
               title="Locales comerciales"
               sub="Avalúos de tiendas, accesorias y locales comerciales"

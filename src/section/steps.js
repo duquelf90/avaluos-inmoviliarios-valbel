@@ -12,17 +12,18 @@ const Steps = () => {
               <div className="py-12">
                 <Image
                   src="/img/eeee.svg"
-                  alt=""
                   width={400}
+                  alt="question"
                   height={400}
-                  className=""
+                  unoptimized={true}
+                  type="image/svg+xml"
                 />
               </div>
             </div>
-            <div className="w-full md:w-1/2 px-4">
-              <h2 className="mb-12 text-4xl md:text-5xl leading-tight font-bold tracking-tighter">
+            <div className="md:max-w-4xl mb-12 mx-auto text-center ">
+              <h1 className="mb-4 text-3xl md:text-4xl leading-tight font-bold tracking-tighter pb-5">
                 ¿Qué necesito para solicitar un avalúo?
-              </h2>
+              </h1>
               <div className="flex flex-wrap -mx-4 text-center md:text-left">
                 <div className="w-full md:w-1/2 px-4 mb-8">
                   <div className="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-white bg-green-500 font-semibold rounded-full">

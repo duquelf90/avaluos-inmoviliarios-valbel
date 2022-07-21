@@ -1,3 +1,4 @@
+import { Example } from "components/Acordion/acordion";
 import ChatBlock from "components/chatBlock";
 import Layout from "components/Layout";
 import SEO from "components/seo";
