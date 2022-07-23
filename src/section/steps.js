@@ -15,8 +15,6 @@ const Steps = () => {
                   width={400}
                   alt="question"
                   height={400}
-                  unoptimized={true}
-                  type="image/svg+xml"
                 />
               </div>
             </div>
