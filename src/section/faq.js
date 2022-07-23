@@ -87,9 +87,7 @@ const accordionData = [
         El costo del avalúo dependerá del tipo de avalúo solicitado. Para
         solicitar un presupuesto llámanos al 5524857429, o envíanos un email a
         avaluos@grupovalbel Grupo Valbel cuenta con una trayectoria en valuación
-        de más de tres décadas. Realiza anualmente a nivel mundial 500 mil
-        avalúos, lo que nos convierte en la empresa multinacional líder en
-        valoración inmobiliaria en España y Latinoamérica.
+        de más de una década.
       </>
     ),
   },

@@ -1,7 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ContentPlaceholder } from "./ContentPlaceholder";
 
 const Accordion = ({ i, title, text, expanded, setExpanded }) => {
   const isOpen = i === expanded;
@@ -37,6 +36,16 @@ const Accordion = ({ i, title, text, expanded, setExpanded }) => {
     </>
   );
 };
+
+const ContentPlaceholder = ({ content }) => (
+  <motion.div
+    variants={{ collapsed: { scale: 0.9 }, open: { scale: 1 } }}
+    transition={{ duration: 0.5 }}
+    className="origin-center p-1 text-coolGray-500 font-medium text-justify"
+  >
+    {content}
+  </motion.div>
+);
 
 export const AccordionBase = ({accordionData}) => {
   const [expanded, setExpanded] = useState(false | 0);
