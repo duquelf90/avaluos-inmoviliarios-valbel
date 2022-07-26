@@ -17,8 +17,8 @@ export default function Index() {
   return (
     <Layout>
       <SEO />
-      <ChatBlock style="fixed z-[9999] right-2 bottom-2">
-        <Image src="/img/whatsapp.png" width={50} height={50} alt="whatsapp" />
+      <ChatBlock style="fixed z-[9999] right-0 bottom-0">
+        <Image src="/img/CHAT-WP.png" width={180} height={50} alt="whatsapp" />
       </ChatBlock>
       <Home />
       <Numbers />
