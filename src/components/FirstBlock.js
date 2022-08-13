@@ -42,7 +42,7 @@ const FirstBlock = () => {
                   height={100}
                 />
               </div>
-              <Image src={"/img/ww.png"} alt="" width={650} height={320} />
+              <Image src={"/img/banner.svg"} alt="" width={650} height={320} />
             </div>
           </div>
         </div>
