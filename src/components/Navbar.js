@@ -45,19 +45,15 @@ const Navbar = () => {
     <nav className="container top-0 z-50 fixed p-3 px-4 w-full bg-white">
       <nav className="flex justify-center items-center w-full">
         <div className="flex w-full md:w-1/3 xl:w-1/3 justify-center md:justify-start">
-          <LogoImg w="185" h="45" />
+          <LogoImg w="160" h="40" />
         </div>
         <div className="hidden w-1/2 md:w-5/6 xl:w-5/6  md:flex xl:flex space-x-6 justify-center">
-          {/* <nav className="hidden md:flex xl:flex space-x-6 justify-center"> */}
           {navLinks}
-          {/* </nav> */}
         </div>
         <div className="hidden xl:flex xl:w-1/3  lg:flex items-center justify-end">
-          {/* <div className="hidden xl:flex md:flex items-center justify-end"> */}
           <ChatBlock style="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md">
             Agenda tu llamada
           </ChatBlock>
-          {/* </div> */}
         </div>
         <div
           className="flex w-8 h-4 flex-col justify-between items-center lg:hidden"
@@ -65,7 +61,6 @@ const Navbar = () => {
             setOpen(!open);
           }}
         >
-          {/* hamburger button */}
           <span
             className={`h-1 w-full bg-black rounded-lg transform transition duration-300 ease-in-out ${
               open ? "rotate-45 translate-y-3.5" : ""

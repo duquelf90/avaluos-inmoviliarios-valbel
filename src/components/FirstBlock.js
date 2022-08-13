@@ -1,17 +1,28 @@
 import Image from "next/image";
 import React from "react";
 import ChatBlock from "./chatBlock";
+import "animate.css";
+import TrackVisibility from "react-on-screen";
 
-const FirstBlock = () => { 
-
+const FirstBlock = () => {
   return (
     <div className="py-28 xl:py-48 md:py-48">
       <div className="container px-10 mx-auto">
         <div className="flex flex-wrap xl:items-center -mx-4">
           <div className="w-full md:w-1/2 px-4 mb-16 md:mb-0">
-            <h1 className="mb-6 text-3xl md:text-5xl lg:text-5xl leading-tight font-bold tracking-tight text-center md:text-left lg:text-left">
-              ¿Estas a punto de vender o comprar un inmueble?
-            </h1>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__swing" : ""
+                  }
+                >
+                  <h1 className="mb-6 text-3xl md:text-5xl lg:text-5xl leading-tight font-bold tracking-tight text-center md:text-left lg:text-left">
+                    ¿Estas a punto de vender o comprar un inmueble?
+                  </h1>
+                </div>
+              )}
+            </TrackVisibility>
             <p className="mb-8 text-lg md:text-xl text-coolGray-500 font-medium text-center md:text-left lg:text-left">
               ¿Quieres estar seguro que el precio es el justo?
             </p>

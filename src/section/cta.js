@@ -18,24 +18,6 @@ const CTA = () => {
         </svg>
       </div>
       <div className="relative bg-coolGray-900">
-        <div className="absolute top-0 left-0 ml-4 lg:ml-12 mt-4 md:mt-0 h-20 md:h-auto">
-          <Image
-            src="/elements/dots3-blue.svg"
-            alt=""
-            width={200}
-            height={200}
-          />
-        </div>
-
-        <div className="absolute bottom-0 right-0 mr-4 lg:mr-12 mb-4 md:mb-0 h-20 md:h-auto">
-          <Image
-            src="/elements/dots3-violet.svg"
-            alt=""
-            width={200}
-            height={200}
-          />
-        </div>
-
         <div className="relative container px-4 mx-auto">
           <div className="xl:max-w-4xl py-16 mx-auto text-center">
             <h2 className="mb-4 text-3xl md:text-4xl font-heading font-bold text-white sm:mb-8">
