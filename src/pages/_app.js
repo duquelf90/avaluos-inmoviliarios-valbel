@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider>
         <Script
           strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-ZR2VYE7BSX`}
         />
         <Script
           id="gtag-init"
@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '${gtag.GA_TRACKING_ID}', {
+        gtag('config', 'G-ZR2VYE7BSX', {
           page_path: window.location.pathname,
         });
       `,
