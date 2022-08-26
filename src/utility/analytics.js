@@ -12,9 +12,9 @@ const analytics = Analytics({
       containerId: GTM_CONTAINER_ID,
       enabled: true,
     }),
-    googleAnalytics({
-      measurementIds: ANALYTICS_ID,
-    }),
+    // googleAnalytics({
+    //   measurementIds: ANALYTICS_ID,
+    // }),
   ],
 });
 

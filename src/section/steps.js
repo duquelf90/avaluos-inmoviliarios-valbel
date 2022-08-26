@@ -11,7 +11,7 @@ const Steps = () => {
             <div className="flex items-center mx-auto ">
               <div className="py-12">
                 <Image
-                  src="/img/eeee.svg"
+                  src="/img/question.svg"
                   width={400}
                   alt="question"
                   height={400}

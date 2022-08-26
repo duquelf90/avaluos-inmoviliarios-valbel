@@ -50,7 +50,7 @@ const Footer = () => {
         <div className="flex flex-wrap items-center py-4">
           <div className="w-full md:w-1/2 mb-6 md:mb-0">
             <p className="text-coolGray-400 font-medium">
-              © 2022 Grupo Valbel. Todos los derechos reservados.
+              © {new Date().getFullYear()} Grupo Valbel. Todos los derechos reservados.
             </p>
           </div>
           <div className="w-full md:w-1/2">
