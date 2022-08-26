@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <ThemeProvider>
-        <Script
+        {/* <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=G-ZR2VYE7BSX`}
         />
@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
         });
       `,
           }}
-        />
+        /> */}
         <Component {...pageProps} />
       </ThemeProvider>
     </>
