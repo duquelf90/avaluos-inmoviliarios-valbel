@@ -3,7 +3,8 @@ import { useEffect } from "react";
 import analytics from "utility/analytics";
 import { ThemeProvider } from "@material-tailwind/react";
 import Script from "next/script";
-import * as gtag from "utility/gtag";
+import * as gtag from 'utility/gtag'
+
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -16,7 +17,7 @@ function MyApp({ Component, pageProps }) {
       {/* Global Site Tag (gtag.js) - Google Analytics */}
 
       {/* <!-- Google tag (gtag.js) --> */}
-      {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR2VYE7BSX"></script>
+{/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR2VYE7BSX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -25,13 +26,15 @@ function MyApp({ Component, pageProps }) {
   gtag('config', 'G-ZR2VYE7BSX');
 </script> */}
 
+      
+      <ThemeProvider>
       <Script
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
       />
       <Script
         id="gtag-init"
-        strategy="beforeInteractive"
+        strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `
         window.dataLayer = window.dataLayer || [];
@@ -43,7 +46,6 @@ function MyApp({ Component, pageProps }) {
       `,
         }}
       />
-      <ThemeProvider>
         <Component {...pageProps} />
       </ThemeProvider>
     </>
