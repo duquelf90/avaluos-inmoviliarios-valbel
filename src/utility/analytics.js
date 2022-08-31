@@ -9,11 +9,11 @@ const analytics = Analytics({
   app: "avaluos-web",
   plugins: [
     googleTagManager({
-      containerId: process.env.GTM_CONTAINER_ID,
+      containerId: GTM_CONTAINER_ID,
       enabled: true,
     }),
     googleAnalytics({
-      measurementIds: process.env.ANALYTICS_ID,
+      measurementIds: ANALYTICS_ID,
     }),
   ],
 });
