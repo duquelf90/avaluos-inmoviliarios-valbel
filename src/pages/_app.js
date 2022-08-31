@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import analytics from "utility/analytics";
 import { ThemeProvider } from "@material-tailwind/react";
 import Script from "next/script";
+import * as ga from 'utility/gtag'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
