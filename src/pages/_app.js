@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import analytics from "utility/analytics";
 import { ThemeProvider } from "@material-tailwind/react";
 import Script from "next/script";
-import * as ga from 'utility/gtag'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -13,7 +12,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Script
+      {/* <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`}
         strategy="afterInteractive"
       />
@@ -25,7 +24,7 @@ function MyApp({ Component, pageProps }) {
 
           gtag('config', '${process.env.NEXT_PUBLIC_MEASUREMENT_ID}');
         `}
-      </Script>
+      </Script> */}
       <ThemeProvider>
         <Component {...pageProps} />
       </ThemeProvider>
