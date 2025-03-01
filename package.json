@@ -17,7 +17,7 @@
     "analytics": "^0.8.1",
     "animate.css": "^4.1.1",
     "framer-motion": "^6.5.1",
-    "next": "13.0.3",
+    "next": "12.2.2",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^7.7.2",
     "react": "^17.0.2",

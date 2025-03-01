@@ -8,8 +8,8 @@ export const navbarData = [
   { title: "Inicio", slug: "home" },
   { title: "Avalúos", slug: "avaluos" },
   { title: "Precios", slug: "precios" },
-  { title: "Contáctanos", slug: "contacto" },
   { title: "Preguntas Frecuentes", slug: "faq" },
+  { title: "Contacto", slug: "contacto" },
 ];
 
 export const navLinks = navbarData.map((pages, index) => (
@@ -29,7 +29,7 @@ export const navLinks = navbarData.map((pages, index) => (
 const MobileNav = ({ open, setOpen }) => {
   return (
     <div
-      className={`absolute top-0 left-0 h-screen w-10/12 bg-white transform ${
+      className={`absolute top-0 left-0 h-screen w-10/12 bg-white transform lg:hidden ${
         open ? "-translate-x-0" : "-translate-x-full"
       } transition-transform duration-300 ease-in-out filter drop-shadow-md `}
     >

@@ -14,8 +14,8 @@ const Prices = () => {
 
         </div>
         <div className="flex flex-wrap mb-12 justify-center -mx-4">
-          <CardPrice title="Avaluos comerciales" location="Ciudad de México" price="1998" popular='Muy Popular' />
-          <CardPrice title="Avaluos comerciales" location="Estado de México y sus alrededores" price="3000" />
+          <CardPrice title="Avaluos comerciales" location="CDMX" price="2999" popular='Muy Popular' />
+          <CardPrice title="Avaluos comerciales" location="EDOMEX y sus alrededores" price="3999" />
           <CardPrice title="Peritajes" price="2.5%" location="Toda la República Mexicana" percent={true}/>
         </div>
       </div>
