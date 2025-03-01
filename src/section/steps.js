@@ -5,7 +5,7 @@ import React from "react";
 const Steps = () => {
   return (
     <>
-      <section className="py-24 bg-white overflow-hidden">
+      <section className="py-20 bg-white overflow-hidden">
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap -mx-4">
             <div className="flex items-center mx-auto ">

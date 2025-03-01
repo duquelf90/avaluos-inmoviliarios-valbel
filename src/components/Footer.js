@@ -25,7 +25,7 @@ const Footer = () => {
     <section className="bg-white overflow-hidden">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap lg:items-center pt-24 pb-0 -mx-4">
-          <div className="w-full md:w-2/4 lg:w-auto px-4 md:mb-0 mb-5">
+          <div className="w-full md:w-2/4 lg:w-auto px-4 md:mb-0 mb-5 text-center">
             <LogoImg w="175" h="45" />
           </div>
           <div className="w-full md:w-3/4 lg:flex-1 px-4">
@@ -45,12 +45,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-b border-coolGray-100"></div>
+      <div className="py-2 border-b border-coolGray-100"></div>
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap items-center py-4">
           <div className="w-full md:w-1/2 mb-6 md:mb-0">
             <p className="text-coolGray-400 font-medium">
-              © {new Date().getFullYear()} Grupo Valbel. Todos los derechos reservados.
+             Grupo Valbel © {new Date().getFullYear()} . Todos los derechos reservados.
             </p>
           </div>
           <div className="w-full md:w-1/2">
@@ -58,7 +58,7 @@ const Footer = () => {
               <div className="px-5">
                 <a
                   className="inline-block text-coolGray-300 hover:text-coolGray-400"
-                  href="#"
+                  href="facebook"
                 >
                   <svg
                     width="10"
@@ -80,7 +80,7 @@ const Footer = () => {
               <div className="px-5">
                 <a
                   className="inline-block text-coolGray-300 hover:text-coolGray-400"
-                  href="#"
+                  href="instagram"
                 >
                   <svg
                     width="20"
@@ -102,7 +102,7 @@ const Footer = () => {
               <div className="px-5">
                 <a
                   className="inline-block text-coolGray-300 hover:text-coolGray-400"
-                  href="#"
+                  href="linkedin"
                 >
                   <svg
                     width="18"

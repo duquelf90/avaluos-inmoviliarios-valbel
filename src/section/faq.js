@@ -115,10 +115,10 @@ const accordionData = [
 
 const Faq = () => {
   return (
-    <section className="py-24 bg-white" id="faq">
+    <section className="py-20 bg-white" id="faq">
       <div className="container px-4 mx-auto">
         <div className="flex flex-wrap -mx-4">
-          <div className="w-full md:w-1/2 px-4 mb-20 md:mb-0">
+          <div className="w-full md:w-1/2 px-4 md:mb-20 mb-5">
             <div className="max-w-md">
               <span className="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium rounded-full shadow-sm">
                 FAQ

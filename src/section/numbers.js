@@ -11,7 +11,7 @@ const Numbers = () => {
           </h3>
 
           <div className="flex flex-wrap justify-center -mx-4">
-            <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-8 lg:mb-0">
+            <div className="w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8 lg:mb-0">
               <h2 className="mb-2 text-4xl md:text-5xl text-white font-bold tracking-tighter">
                 +10000
               </h2>
@@ -19,7 +19,7 @@ const Numbers = () => {
                 Avaluos
               </p>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-8 lg:mb-0">
+            <div className="w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8 lg:mb-0">
               <h2 className="mb-2 text-4xl md:text-5xl text-white font-bold tracking-tighter">
                 +3000
               </h2>
@@ -27,7 +27,7 @@ const Numbers = () => {
                 Clientes
               </p>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/4 px-4 mb-8 lg:mb-0">
+            <div className="w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8 lg:mb-0">
               <h2 className="mb-2 text-4xl md:text-5xl text-white font-bold tracking-tighter">
                 +8000
               </h2>
@@ -35,7 +35,7 @@ const Numbers = () => {
                 Escrituraciones
               </p>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/4 px-4">
+            <div className="w-1/2 md:w-1/3 lg:w-1/4 px-4">
               <h2 className="mb-2 text-4xl md:text-5xl text-white font-bold tracking-tighter">
                 15000
               </h2>

@@ -3,7 +3,7 @@ import React from "react";
 
 const TypeSection = () => {
   return (
-    <section className="py-24 bg-white">
+    <section className="py-20 bg-white">
       <div className="container px-4 mx-auto">
         <div className="xl:max-w-4xl mb-12 mx-auto text-center">
           <h1 className="m-auto text-3xl md:text-4xl leading-tight font-bold tracking-tighter">

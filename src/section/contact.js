@@ -86,11 +86,11 @@ const Contact = () => {
                 <h3 className="mb-2 text-2xl md:text-3xl leading-9 text-white font-bold">
                   WhatsApp
                 </h3>
-                <p className="text-lg md:text-xl font-medium text-coolGray-500 leading-7">
+                <p className="text-lg md:text-lg font-medium text-coolGray-500 leading-7">
                   Horario de atención
                 </p>
-                <p className="mb-4 text-lg md:text-xl font-medium text-coolGray-500 leading-7">
-                  Lunes - Viernes 9:00 am - 6:00 pm Sábados 10:00 am - 5:00 pm
+                <p className="mb-4 text-lg md:text-lg font-medium text-coolGray-500 leading-7">
+                  Lunes a Viernes 9:00 am - 6:00 pm <br/> Sábados 10:00 am - 5:00 pm
                 </p>
                 <p className="text-lg md:text-xl text-green-500 font-medium">
                   <WhatsApp phone="5524857429" />
@@ -122,11 +122,11 @@ const Contact = () => {
                   Teléfono oficina
                 </h3>
 
-                <p className="mb-0 text-lg md:text-xl font-medium text-coolGray-500 leading-7">
+                <p className="mb-0 text-lg md:text-lg font-medium text-coolGray-500 leading-7">
                   Horario de atención
                 </p>
-                <p className="mb-4 text-lg md:text-xl font-medium text-coolGray-500 leading-7">
-                  Lunes - Viernes 9:00 am - 6:00 pm
+                <p className="mb-4 text-lg md:text-lg font-medium text-coolGray-500 leading-7">
+                  Lunes a Viernes 9:00 am - 6:00 pm
                 </p>
                 <p className="text-lg md:text-xl font-medium text-green-500">
                   <a href="tel:5590398872">(55) 9039 8872</a>
