@@ -4,7 +4,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section className="relative bg-white overflow-hidden bg-center" id="home">
+    <section className="relative overflow-hidden bg-center" id="home">
       <Navbar />
       <FirstBlock/>
     </section>
