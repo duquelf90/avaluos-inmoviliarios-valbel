@@ -38,9 +38,9 @@ export default function SEO({
     <Head>
       <title>{title}</title>
       <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-      {metaData.map(({ name, content }, i) => (
-        <meta key={i} name={name} content={content} />
-      ))}
+      {/* {metaData.map(({ name, content }) => (
+        <meta key={name} name={name} content={content} />
+      ))} */}
     </Head>
   );
 }
