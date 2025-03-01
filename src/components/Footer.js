@@ -31,15 +31,10 @@ const Footer = () => {
           <div className="w-full md:w-3/4 lg:flex-1 px-4">
             <div className="flex flex-wrap justify-end -mx-3 lg:-mx-6">
               {navLinks}
-              <div className="w-full md:w-auto p-3 md:py-0 md:px-6 capitalize">
-                <Link
-                  activeClass="active"
-                  href="https://www.grupovalbel.com/propiedades"
-                >
-                  <a className="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium">
+              <div className="w-full md:w-auto p-3 md:py-0 md:px-6 capitalize">                
+                  <a className="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium" href="https://www.grupovalbel.com/propiedades">
                     Remates Hipotecarios
                   </a>
-                </Link>
               </div>
             </div>
           </div>

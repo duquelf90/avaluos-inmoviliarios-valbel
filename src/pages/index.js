@@ -27,7 +27,7 @@ export default function Index() {
       <Steps />
       <Prices />
       <Faq />
-      <Contact />
+      <Contact /> *
     </Layout>
   );
 }
