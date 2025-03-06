@@ -47,7 +47,8 @@ const CardPrice = (props) => {
         <ul className="self-center px-8 pt-8 pb-8 ">
           <li className="flex items-center mb-2 text-coolGray-500 font-small text-center">
             <CheckIcon />
-            <span>No aplica viaticos y estancias</span>
+            
+            <span>{props.fees ? No : null } aplica viaticos y estancias</span>
           </li>
         </ul>
         <div className="border-b border-coolGray-100"></div>
