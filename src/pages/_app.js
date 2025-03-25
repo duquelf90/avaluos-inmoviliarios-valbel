@@ -4,9 +4,9 @@ import analytics from "utility/analytics";
 import { ThemeProvider } from "@material-tailwind/react";
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    analytics.page();    
-  }, []);
+  // useEffect(() => {
+  //   analytics.page();    
+  // }, []);
 
   return (
     <>      
