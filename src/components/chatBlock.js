@@ -3,7 +3,7 @@ import analytics from "utility/analytics";
 const ChatBlock = ({ style, children }) => {
   const doWhatsapp = () => {
     analytics.track("buttonClicked", {}, () => {
-      console.log("whatsapp callback");
+      console.log("Alguien te contacto por whatsapp");
     });
   };
 
