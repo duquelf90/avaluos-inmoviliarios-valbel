@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { initializeGA } from "@/utils/GoogleAnalytics";
+import initializeGA from "utility/google-analytics";
 
 export default function GoogleAnalytics() {
   useEffect(() => {

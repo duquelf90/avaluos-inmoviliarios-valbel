@@ -1,5 +1,6 @@
 "use client";
-import { trackGAEvent } from "@/utils/GoogleAnalytics";
+
+import { trackGAEvent } from "utility/google-analytics";
 
 const ChatBlock = ({ style, children }) => {
   const doWhatsapp = () => {
