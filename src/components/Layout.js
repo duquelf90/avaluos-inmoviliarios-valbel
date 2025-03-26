@@ -11,8 +11,8 @@ const Layout = ({ props, children }) => {
           <Footer />
         </div>
       </body>
-      {/* <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWJH53XL"
-        height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript> */}
+       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWJH53XL"
+        height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
     </html>
 
   );
