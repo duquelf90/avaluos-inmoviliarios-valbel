@@ -1,5 +1,7 @@
+import { ANALYTICS_ID } from "./analytics"
+
 export const pageview = (url) => {
-  window.gtag('config', process.env.MEASUREMENT_ID, {
+  window.gtag('config', ANALYTICS_ID, {
     page_path: url,
   })
 }

@@ -2,15 +2,18 @@ import Analytics from "analytics";
 import googleTagManager from "@analytics/google-tag-manager";
 import googleAnalytics from "@analytics/google-analytics";
 
+const GTM_CONTAINER_ID = "GTM-PWJH53XL";
+export const ANALYTICS_ID = "G-PZLB8HJXYN"
+
 const analytics = Analytics({
   app: "avaluos-web",
   plugins: [
     googleTagManager({
-      containerId: process.env.GTM_CONTAINER_ID,
+      containerId: GTM_CONTAINER_ID,
       enabled: true,
     }),
     googleAnalytics({
-      measurementIds: process.env.MEASUREMENT_ID,
+      measurementIds: ANALYTICS_ID,
     }),
   ],
 });
