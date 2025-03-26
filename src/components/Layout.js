@@ -12,7 +12,7 @@ const Layout = ({ props, children }) => {
           <Footer />
         </div>
       </body> 
-      <GoogleAnalytics gaId="G-XYZ" />      
+      <GoogleAnalytics gaId="G-PZLB8HJXYN" />      
     </html>
 
   );
