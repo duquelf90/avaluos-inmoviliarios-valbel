@@ -1,5 +1,5 @@
 import Footer from "./Footer";
-import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GoogleAnalytics from "./GoogleAnalytics";
 
 const Layout = ({ props, children }) => {
   return (
