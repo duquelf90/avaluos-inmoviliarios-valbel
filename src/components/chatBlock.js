@@ -1,10 +1,14 @@
-import analytics from "utility/analytics";
+"use client";
+import { trackGAEvent } from "@/utils/GoogleAnalytics";
 
 const ChatBlock = ({ style, children }) => {
   const doWhatsapp = () => {
-    analytics.track("buttonClicked", {}, () => {
-      console.log("Alguien te contacto por whatsapp");
-    });
+
+    trackGAEvent("My botton", "Llamar", "whatsapp");
+    
+    // analytics.track("buttonClicked", {}, () => {
+    //   console.log("Alguien te contacto por whatsapp");
+    // });
   };
 
   return (
