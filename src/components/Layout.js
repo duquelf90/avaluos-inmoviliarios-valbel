@@ -1,16 +1,18 @@
 import Footer from "./Footer";
-import GoogleAnalytics from "./GoogleAnalytics";
+import { GoogleTagManager,GoogleAnalytics } from '@next/third-parties/google'
 
 const Layout = ({ props, children }) => {
   return (
     <html lang="en">
-      <GoogleAnalytics />
+      <GoogleTagManager gtmId="GTM-PWJH53XL" />
+      
       <body>
         <div className="antialiased bg-body text-body font-body">
           <div className="container mx-auto">{children}</div>
           <Footer />
         </div>
-      </body>       
+      </body> 
+      <GoogleAnalytics gaId="G-XYZ" />      
     </html>
 
   );
