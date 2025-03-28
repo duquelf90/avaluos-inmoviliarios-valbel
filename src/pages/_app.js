@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <ThemeProvider>
       <GoogleTagManager gtmId="GTM-PWJH53XL" />
         <Component {...pageProps} />
-        <GoogleAnalytics gaId="G-PZLB8HJXYN" />
+        <GoogleAnalytics gaId="AW-11091231496" />
       </ThemeProvider>
     </>
   );
