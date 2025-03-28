@@ -1,17 +1,15 @@
 import "styles/globals.css";
-import { useEffect } from "react";
-import analytics from "utility/analytics";
 import { ThemeProvider } from "@material-tailwind/react";
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google'
 
-function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    analytics.page();    
-  }, []);
+function MyApp({ Component, pageProps }) { 
 
   return (
     <>      
       <ThemeProvider>
+      <GoogleTagManager gtmId="GTM-PWJH53XL" />
         <Component {...pageProps} />
+        <GoogleAnalytics gaId="G-PZLB8HJXYN" />
       </ThemeProvider>
     </>
   );

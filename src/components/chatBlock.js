@@ -1,11 +1,10 @@
 "use client";
-import analytics from 'utility/analytics';
+import { sendGAEvent, sendGTMEvent } from '@next/third-parties/google';
 
 const ChatBlock = ({ style, children }) => {
   const doWhatsapp = () => {
-    analytics.track("buttonClicked", {}, () => {
-      console.log("Alguien te contacto por whatsapp");
-    });
+    sendGTMEvent({ event: 'buttonClicked', value: 'whatsaap_button' });
+    sendGAEvent({ event: 'buttonClicked', value: 'whatsaap_button' });
   };
 
   return (

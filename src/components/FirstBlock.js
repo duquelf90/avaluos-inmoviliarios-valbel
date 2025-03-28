@@ -4,6 +4,7 @@ import ChatBlock from "./chatBlock";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
+
 const FirstBlock = () => {
   return (
     <div className="py-28 xl:py-48 md:py-48">
