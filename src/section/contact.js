@@ -93,11 +93,9 @@ const Contact = () => {
                   Lunes a Viernes 9:00 am - 6:00 pm <br/> Sábados 10:00 am - 5:00 pm
                 </p>
                 <p className="text-lg md:text-xl text-green-500 font-medium">
-                  <WhatsApp phone="5524857429" />
+                  <WhatsApp phone="8180188497" />
                 </p>
-                <p className="text-lg md:text-xl text-green-500 font-medium">
-                  <WhatsApp phone="5631278752" />
-                </p>
+                
               </div>
             </div>
             {/* Oficina */}
@@ -129,7 +127,7 @@ const Contact = () => {
                   Lunes a Viernes 9:00 am - 6:00 pm
                 </p>
                 <p className="text-lg md:text-xl font-medium text-green-500">
-                  <a href="tel:5590398872">(55) 9039 8872</a>
+                  <a href="tel:8180188497">8180188497</a>
                 </p>
               </div>
             </div>

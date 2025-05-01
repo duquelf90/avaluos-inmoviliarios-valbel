@@ -10,7 +10,7 @@ const ChatBlock = ({ style, children }) => {
   return (
     <a
       className={style}
-      href="https://api.whatsapp.com/send?phone=+525524857429&text=Hola%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20un%20avalúo"
+      href="https://api.whatsapp.com/send?phone=+528180188497&text=Hola%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20un%20avalúo"
       onClick={doWhatsapp}
       target="_blank"
       rel="noreferrer"
